@@ -73,4 +73,37 @@ img {
 }
 
 
-/* < 480px */
+/* width < 480px */
+@media all and (max-width: 480px){
+ 
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .row {
+    width: auto;
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 70%;
+    height: auto;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: auto;
+    float: none;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: auto;
+  }
+
+}
